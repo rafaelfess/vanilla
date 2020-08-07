@@ -12,15 +12,15 @@ Vanilla is a framework for building instant web applications. It's fast.
 
 - It is JIT-compiled, can run in browsers, Node, Deno, GraalVM and even Rhino.
 - Hassle-free, no build tools required. No webpack or Parcel. Not even Rollup.
-- Vanilla is so easy, it does not even require any documentation.
+- Vanilla is so easy, it does not even require any specialized documentation.
 - It has a larger community than any framework. In fact, more than any **programming language**.
+- Does not attempt to create a whole new environment for developers. They just use it.
 - Unlike mainstream frameworks/libraries, it does not _attempt_ to support browsers and engines. Instead, browsers and engines strive to support it.
 - Supports [cross-framework components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) that are easy to debug.
 - ES Modules is built-in and works great with HTTP 2.
 - Tweakable routing with the [History](https://developer.mozilla.org/en-US/docs/Web/API/History_API) API.
 - Powerful `fetch` API, so you don't need `axios` or other alternatives.
 - Built-in CSS-in-JS support, although I advise against it. SSR support too.
-- Does not create a whole new environment for developers. They just use it.
 - Built-in `map`, `filter`, `reduce`, `forEach` for FRP, so you won't need bloated RxJS observables and operations.
 - Strong object APIs for creating, assigning, freezing, defining properties, and more.
 - Runtime object reflection with the Reflect API.
@@ -31,7 +31,7 @@ Vanilla is a framework for building instant web applications. It's fast.
 
 **Vanilla** was so primitive in its early days, that jQuery was created. After some time, frameworks flooded userland.
 
-**Vanilla** eventually became powerful and started shipping powerful features. No complex tooling. No countless hours of debugging. No loopholes for complex systems. No
+**Vanilla** eventually became powerful and started shipping powerful features. No complex tooling. No countless hours of debugging. No loopholes for complex systems.
 
 ## Framework Comparisons
 
@@ -41,7 +41,7 @@ Vanilla is a framework for building instant web applications. It's fast.
 
 **React** is pushing towards functional purity with minimal side effects, a goal they haven't realized till today.
 
-What is perceived to be a mess on Gatsby's part, can instantly be seen in Next or even Create React App.
+**React** developers, meanwhile, are more interested in [Algebraic Effects](https://overreacted.io/algebraic-effects-for-the-rest-of-us/) and [making `setInterval` declarative](https://overreacted.io/making-setinterval-declarative-with-react-hooks/).
 
 ### Vue
 
@@ -59,11 +59,15 @@ If the future of bundlers is _no bundlers_, I'm sure we can agree that the futur
 
 ### Preact
 
-Vanilla has what they call a zero-cost abstraction system. That means no runtime (**0kb**). In large applications, even those few extra bytes count.
+Vanilla has what they call a zero-cost abstraction system. That means no runtime (**0kb**). In large applications, even those few extra bytes count. With slower network, it just gets worse.
 
 ## Installation
 
 This is the best part. You don't install it, you just start writing!
+
+## Contributing
+
+You don't contribute. Vanilla is stable.
 
 ## Credits
 
